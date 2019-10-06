@@ -13,6 +13,8 @@ V3 - I changed the structure of the objects to have defaults that I could use in
 V4 - This was my first attempt at adding a camera. The Camera class could be used to move the camera and adjust the zoom. I'm not 100% confident that it actually worked the way I wanted it to.
 V5 - This is the second major refactorization of the code. I now have a hierarchy of classes so that I can take advantage of inheritance. This feels like a better approach, though I'm not certain that it is. I also fixed the camera so that I know it works the way I want. I also made the strings more consistent. Here is the tower of dependencies and the features at each level.
 
+The text below is terrible because markdown doesn't like it. View the raw form to read it. I will have to change this format eventually.
+
 | [Obj(ref, frames, persist)]
 | ----> The Obj class is the most general class. All animation objects must have these basic features:
 | ---->>> ref: All objects have a reference, though most of them are meaningless for now. Eventually, I will want
