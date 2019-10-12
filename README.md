@@ -79,6 +79,7 @@ The text below is terrible because markdown doesn't like it. View the raw form t
 
 Goals for V6:
 * Make an Anchor scope that will do linearly interpolated translations and rotations around an anchor point. This will simplify ore complex animations
+* Make a keyframe structure for objects so that they can be moved in the same way that camera moves are made.
 * I think Point_Obj should get the at_point property.
 
 Eventual goals: When I'm happy enough with it, make a tutorial
